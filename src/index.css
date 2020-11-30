@@ -1,0 +1,34 @@
+body {
+  margin: 1;
+  font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'source-code-pro', 'Menlo', 'Monaco', 'Consolas', 'Courier New',
+    monospace;
+}
+
+.popup-content {
+  margin: top;
+  background: rgb(169, 215, 233);
+  width: 30%;
+  padding: 0px;
+}
+.popup-arrow {
+  color: rgb(75, 158, 154);
+}
+[role='tooltip'].popup-content {
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 0px;
+}
+
+.popup-overlay {
+  background: rgba(77, 139, 231, 0.301);
+}
+[data-popup='tooltip'].popup-overlay {
+  background: transparent;
+}
